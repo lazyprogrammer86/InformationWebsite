@@ -1,0 +1,27 @@
+<%- include("partials/header");-%>
+<section id="game">
+    <div class="container-fluid">
+        <h1 class="game-head">Console Games</h1>
+        <div class="row justify-content-center games-p_c">
+            <% console.forEach(consoleItem=>{%>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <img src="/images/console/<%=consoleItem%>" alt="">
+            </div>
+            <%})%>
+        </div>
+
+        <h1 class=" game-head">..Pc Games..</h1>
+        <div class="row justify-content-center games-p_c">
+            <% pc.forEach(pcItem=>{%>
+            <div class=" col-lg-2 col-md-3 col-sm-6">
+                <img src="/images/pc/<%=pcItem%>" alt="">
+            </div>
+            <%})%>
+        </div>
+
+        <h5 class="game-text">and lot more games available....</h5>
+        <p>for more information..<a class="btn btn-outline-warning btn-lg game-contact" href="/contact" <h3>Contact Us
+                </h3></a></p>
+    </div>
+</section>
+<%- include("partials/footer");-%>

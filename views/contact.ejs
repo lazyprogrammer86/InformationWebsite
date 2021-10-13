@@ -1,0 +1,22 @@
+<%- include("partials/header");-%>
+<section id="contact">
+    <div class="container-fluid justify-content-center">
+        <div class="row">
+            <div class="col-xl-6 map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24469659.4366079!2d19.56215342402231!3d68.01707888019094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x441a6049e61899b1%3A0x102a3a583f195e0!2sArkhangelsk%20Oblast%2C%20Russia!5e0!3m2!1sen!2sin!4v1591992318953!5m2!1sen!2sin"
+                    width="800" height="850" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+            <div class="col-xl-6 form">
+                <form class="contact-info" action="/contact" method="post">
+                    <h1>Tell us about it</h1>
+                    <input class="form-group mx-sm-3 mb-2" type="text" name="Name" value="" placeholder="Name" autocomplete="off">
+                    <input class="form-group mx-sm-3 mb-2l" type="email" name="Email" value="" placeholder="Email" autocomplete="off" required>
+                    <input class="form-group mx-sm-3 mb-2" type="tel" name="Cellnumber" placeholder="Phone Number" pattern="[0-9]{10}"autocomplete="off" maxlength="10">
+                    <textarea class="form-group mx-sm-3 mb-2" name="Comment" rows="15" cols="60" placeholder="Suggestion/comments" maxlength="500" required></textarea>
+                    <button class="form-group mx-sm-3  mb-2  mb-2 btn btn-lg btn-outline-primary" type="submit" name="button">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<%- include("partials/footer");-%>

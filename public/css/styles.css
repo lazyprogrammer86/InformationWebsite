@@ -1,0 +1,401 @@
+/*********************************header.ejs*************************/
+body {
+    background-color: black;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    top:0;
+    z-index: 1030;
+
+    padding-top:0%;
+    background-color: black;
+    opacity: 0.9;
+}
+.navbar-nav{
+margin-left:auto;
+}
+.navbar-brand{
+    width:8rem;
+    height:4rem;
+
+}
+.nav-item:not(.navbar-brand){
+    margin: 2rem 4rem 0rem;
+    font-size: 1rem;
+    font-weight: lighter;
+height:0%;
+}
+.nav-item:hover:not(.navbar-brand){
+    background-color:#3f3f44;
+    border-radius: 7%;
+}
+/*************************home.ejs*****************************/
+#home,#game,#contact,#success,#events,#evetns-exp{
+    padding-top: 5%;
+}
+#cod-background {
+    width: 100%;
+    height: 100%;
+}
+
+#contact-button {
+    position: absolute;
+    margin: 47% 0 0 -52%;
+}
+
+.back-text {
+    color: white;
+    position: absolute;
+    margin: 17% 0 0 -93%;
+}
+
+.back-name {
+    font-size: 6.5rem;
+    font-weight: 700;
+    font-family: "metal mania";
+    line-height: 0.5;
+}
+
+.back-desc {
+    font-size: 4.5rem;
+    font-weight: 600rem;
+    font-family: "Piedra";
+}
+
+.CF-exp {
+    color: #ffcd3c;
+    font-family: "Bitter";
+    font-size: 3rem;
+    padding-top: 5rem;
+    line-height: 1;
+}
+
+.CF-text {
+    color: silver;
+    font-family: "Bitter";
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-bottom: 5rem;
+}
+
+.cf-experience {
+    padding: 0 1.5rem 3rem 1.5rem;
+    text-align: center;
+}
+
+.fas:not(.fa-phone-alt) {
+    font-size: 3.5rem;
+    padding: 2rem 0 2rem 0;
+}
+
+.fa-calendar-alt {
+    color: #00a1ab;
+}
+
+.fa-users {
+    color: #035aa6;
+}
+
+.fa-tools {
+    color: #dae1e7;
+}
+
+.fa-heart {
+    color: #f40552;
+}
+
+.Gioc-text {
+    padding: 0.5rem 1rem 3rem 1rem;
+}
+
+.establishment {
+    height: 100%;
+    background-image: url("/images/bg-gamecenter.jpg"), url("/images/bg-gamecenter-2.jpg");
+    background-size: 50% 100%;
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+}
+
+.estd-photo {
+    width: 35%;
+    height: 35%;
+}
+
+.estd-text{
+    padding: 5% 0% 5% 17%;
+    color: white;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+#pricing {
+    padding:7%;
+    background-color: #f7f7f7;
+}
+
+.pricing-text {
+    margin-left: 44%;
+    padding-bottom: 5%;
+    color: #ffcd3c;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Bitter";
+}
+
+#pricing .row {
+    , margin-left: 20%;
+}
+
+.card {
+    margin: 2% 2% 4% 5.5%;
+    box-shadow: 2px 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-top {
+    font-size: 0.86rem;
+    font-weight: lighter;
+    color: silver;
+}
+
+.bill {
+    font-size: 3rem;
+    color: #127681;
+}
+
+.monthbill{
+    font-weight: 700;
+    font-size: 125%;
+    color: #f37121;
+
+}
+.home-events{
+min-height: 20rem;
+background-image: url("/images/GE-1.jpg"),url("/images/gE-2.jpg");
+background-repeat: no-repeat, repeat;
+background-size: 50% 100%;
+background-attachment: fixed;
+}
+
+.home-events h1{
+    padding:5% 0;
+color:white;
+font-family: "Bitter";
+
+}
+.home-events p{
+width:70%;
+margin-left: 15%;
+color:white;
+}
+.home-events p:last-child{
+padding-bottom:7%;
+margin-bottom: 0;
+}
+.home-events a{
+    text-decoration: none;
+    color: red;
+}
+#food{
+    padding:2% 0 8%;
+    background-color:#393e46;
+    background-image: url(/images/food.webp);
+    background-blend-mode: difference;
+    background-repeat: no-repeat;
+}
+#food h1{
+    position: relative;
+    margin-left: 33%;
+    margin-bottom:5%;
+    color: #6DB432;
+    font-size: 3rem;
+    font-family:"Bitter"
+}
+
+#food p{
+    margin-top:10%;
+    position: relative;
+    color:white;
+    font-family: "Pacifico";
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.carousel-item .d-block{
+    width:45rem;
+    height:30rem;
+margin: auto;
+}
+.testimonial{
+    background-image: url("/images/bg-testimonial.jpg");
+
+background-size: 100% 100%;
+    background-repeat:repeat;
+    background-attachment:fixed;
+    padding: 6%;
+}
+
+.testimonial-image{
+    width:30%;
+    height:40%;
+    border-radius: 100%;
+    margin-bottom: 9%;
+
+}
+.testimonial h4{
+    margin: 2%;
+    color:white;
+
+}
+.testimonial-text{
+    color: white;
+    font-weight: lighter;
+    font-size: 100%;
+}
+
+
+/***************************Games****************************/
+.game-head{
+    font-size: 3rem;
+    font-family:"Pacifico";
+    font-weight: bold;
+    padding-bottom: 1%;
+    color: #e7dfd5;
+
+}
+.games-p_c img{
+width:127%;
+height:100%;
+padding: 0.3rem 1.2rem;
+opacity:0.6;
+transition: transform 1s;
+}
+.games-p_c img:hover{
+    position: relative;
+    opacity:1.5;
+    transform: scale(1.5);
+
+    z-index: 100;
+
+}
+.games-p_c{
+padding:5% 0;
+    margin-bottom: 2rem;
+
+}
+.game-text{
+    font-size:1.5rem;
+    font-weight:100;
+    font-family: "Piedra";
+    margin:1% 0 3% 0;
+    color: white;
+}
+#game p{
+    font-weight: 10;
+    font-size: 1rem;
+    font-family: "Bitter";
+    color:grey;
+
+}
+.game-contact{
+    margin-left:2rem;
+}
+
+/**************************events***************************/
+#events .card{
+    color:white;
+background-color:grey;
+}
+#events h4{
+    color:orange;
+}
+#events span{
+    font-size: 2rem;
+    color:darkgreen;
+    font-family: "Bitter"
+}
+#events h4,p{
+    margin-bottom:0.4rem;
+}
+#events a{
+margin: 8% 0 0 0;
+}
+/**************************contact*************************/
+#contact .map{
+padding-left: 5%;
+}
+#contact .form{
+    padding-top: 5%;
+    padding-left:10%;
+    border-width: 0;
+    background-image: url("/images/logo-1.jpg");
+    background-size:75%;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+#contact h1{
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: "Pacifico";
+    color:#1b6ca8;
+}
+#contact input{
+    padding:2% 4%;
+    margin: 3% 4%;
+    border-radius: 1rem;
+    opacity: 0.8;
+}
+#contact textarea{
+    padding:4% 4%;
+opacity: 0.8;
+    border-radius: 1rem;
+
+}
+#contact button{
+
+}
+/*************************success**************************/
+#success{
+    min-height: 600px;
+    background-image: url("/images/cod-ww2-bg.jfif");
+}
+#success h1{
+    font-size: 4rem;
+    padding: 15%;
+    color:#17706e;
+    font-family: "Pacifico";
+}
+/*************************footer***************************/
+
+
+footer {
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    background-image: url("/images/footer-background.jpg");
+    width: 100%;
+}
+
+footer p {
+    padding: 2rem 0 3rem;
+    0;
+}
+
+.social-media {
+    padding: 0 0.7rem;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.social-media:hover {
+    color: #342ead;
+}
+
+.copyright {
+    color: white;
+}
+
+/***********************************end****************************/
